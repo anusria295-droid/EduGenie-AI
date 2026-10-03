@@ -1,5 +1,5 @@
-from .config import settings
-from .gemini import generate_text
+from config import settings
+from gemini import generate_text
 
 
 _local_pipeline = None
