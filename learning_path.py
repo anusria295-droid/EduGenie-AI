@@ -1,4 +1,4 @@
-from .gemini import generate_text
+from gemini import generate_text
 
 
 def get_learning_recommendations(
