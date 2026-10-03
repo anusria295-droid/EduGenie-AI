@@ -6,7 +6,7 @@ from pydantic import (
     field_validator,
 )
 
-from .gemini import generate_json
+from gemini import generate_json
 
 
 class QuizQuestion(BaseModel):
