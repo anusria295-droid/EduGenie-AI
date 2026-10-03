@@ -6,12 +6,12 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel, Field
 
-from services.config import settings
-from services.explanation_module import explain_topic
-from services.learning_path import get_learning_recommendations
-from services.qna import answer_question
-from services.quiz_module import generate_quiz
-from services.summary_module import summarize_text
+from config import settings
+from explanation_module import explain_topic
+from learning_path import get_learning_recommendations
+from qna import answer_question
+from quiz_module import generate_quiz
+from summary_module import summarize_text
 
 
 BASE_DIR = Path(__file__).resolve().parent
