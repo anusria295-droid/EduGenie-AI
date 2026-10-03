@@ -14,7 +14,7 @@ class GeminiNotConfiguredError(RuntimeError):
 @lru_cache
 def get_client():
 
-    if not settings.gemini_configured:
+    if not settings gemini_configured:
         raise GeminiNotConfiguredError(
             "GEMINI_API_KEY is not configured. "
             "Add your Gemini API key to the .env file."
