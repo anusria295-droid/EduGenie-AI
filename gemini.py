@@ -4,7 +4,7 @@ from functools import lru_cache
 from google import genai
 from google.genai import types
 
-from .config import settings
+from config import settings
 
 
 class GeminiNotConfiguredError(RuntimeError):
